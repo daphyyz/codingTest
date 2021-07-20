@@ -5,6 +5,7 @@ https://programmers.co.kr/learn/courses/30/parts/12077
 https://programmers.co.kr/learn/courses/30/lessons/42576
 
 1-1. Java
+```
   import java.util.HashMap;
   import java.util.Arrays;
 
@@ -50,8 +51,9 @@ https://programmers.co.kr/learn/courses/30/lessons/42576
       return answer;
     }
   }
-
+```
 1-2. Python3
+```
   def solution(participant, completion) :
     #print("p:", participant)
     #print("c:", completion)
@@ -77,3 +79,4 @@ https://programmers.co.kr/learn/courses/30/lessons/42576
   p3 = ["mislav", "stanko", "mislav", "ana"]
   c3 = ["stanko", "ana", "mislav"]
   print(solution(p3, c3))
+```
