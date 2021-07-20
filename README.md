@@ -53,6 +53,19 @@ https://programmers.co.kr/learn/courses/30/lessons/42576
     }
   }
 ```
+```java
+  public static String solution2(String[] participiant, String[] completion) {
+    Arrays.sort(participiant);
+    Arrays.sort(completion);
+    int i;
+    for(i=0; i<completion.length; i++) {
+      if(!participiant[i].equals(completion[i])) {
+        return participiant[i];
+      }
+    }
+    return participiant[i];
+  }
+```
 1-2. Python3
 ```python
   def solution(participant, completion) :
