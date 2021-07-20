@@ -5,7 +5,7 @@ https://programmers.co.kr/learn/courses/30/parts/12077
 https://programmers.co.kr/learn/courses/30/lessons/42576
 
 1-1. Java
-```
+```java
   import java.util.HashMap;
   import java.util.Arrays;
 
@@ -53,7 +53,7 @@ https://programmers.co.kr/learn/courses/30/lessons/42576
   }
 ```
 1-2. Python3
-```
+```python
   def solution(participant, completion) :
     #print("p:", participant)
     #print("c:", completion)
