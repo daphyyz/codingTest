@@ -2,6 +2,7 @@
 Coding tests
 
 https://programmers.co.kr/learn/courses/30/parts/12077
+
 https://programmers.co.kr/learn/courses/30/lessons/42576
 
 1-1. Java
@@ -80,3 +81,14 @@ https://programmers.co.kr/learn/courses/30/lessons/42576
   c3 = ["stanko", "ana", "mislav"]
   print(solution(p3, c3))
 ```
+```python
+#use Collections.counter
+import collections
+
+
+def solution(participant, completion):
+    answer = collections.Counter(participant) - collections.Counter(completion)
+    return list(answer.keys())[0]
+```
+
+
